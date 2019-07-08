@@ -1,0 +1,29 @@
+# Included scalars
+scalar JSON
+scalar Uploadr
+
+# Vue team member
+type VueHero {
+  id: ID!
+  name: String!
+  image: String
+  github: String
+  twitter: String
+}
+
+input HeroInput {
+  name: String!
+  image: String
+  github: String
+  twitter: String
+}
+
+type Query {
+  allHeroes: [VueHero]
+  getHero(name: String!): VueHero!
+}
+
+type Mutation {
+  addHero(hero: HeroInput!): VueHero!
+  deleteHero(name: String!): Boolean
+}
