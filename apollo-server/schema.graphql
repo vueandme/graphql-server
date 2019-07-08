@@ -1,29 +1,28 @@
-# Included scalars
-scalar JSON
-scalar Uploadr
-
-# Vue team member
-type VueHero {
+type Wine {
   id: ID!
-  name: String!
-  image: String
-  github: String
-  twitter: String
+  title: String!
+  description: String
+  variety: String
+  winery: String
+  province: String
+  year: Int!
 }
 
-input HeroInput {
-  name: String!
-  image: String
-  github: String
-  twitter: String
+input WineInput {
+  title: String!
+  description: String
+  variety: String
+  winery: String
+  province: String
+  year: Int!
 }
 
 type Query {
-  allHeroes: [VueHero]
-  getHero(name: String!): VueHero!
+  allWines: [Wine]
+  getWine(id: ID!): Wine!
 }
 
 type Mutation {
-  addHero(hero: HeroInput!): VueHero!
-  deleteHero(name: String!): Boolean
+  addWine(wine: WineInput!): Wine!
+  deleteWine(id: ID!): Boolean
 }

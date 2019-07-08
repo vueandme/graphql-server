@@ -1,39 +1,38 @@
-import GraphQLJSON from 'graphql-type-json';
 import shortid from 'shortid';
 
 export default {
-  JSON: GraphQLJSON,
-
   Query: {
-    allHeroes: (root, args, { db }) => db.get('heroes').value(),
-    getHero: (root, { name }, { db }) =>
+    allWines: (root, args, { db }) => db.get('wines').value(),
+    getWine: (root, { id }, { db }) =>
       db
-        .get('heroes')
-        .find({ name })
+        .get('wines')
+        .find({ id })
         .value(),
   },
 
   Mutation: {
-    addHero: (root, { hero }, { pubsub, db }) => {
-      const newHero = {
+    addWine: (root, { wine }, { pubsub, db }) => {
+      const newWine = {
         id: shortid.generate(),
-        name: hero.name,
-        image: hero.image || '',
-        twitter: hero.twitter || '',
-        github: hero.github || '',
+        title: wine.title,
+        description: wine.description || '',
+        variety: wine.variety || '',
+        winery: wine.winery || '',
+        province: wine.province || '',
+        year: wine.year,
       };
-      db.get('heroes')
-        .push(newHero)
+      db.get('wines')
+        .push(newWine)
         .last()
         .write();
 
-      pubsub.publish('heroes', { addHero: newHero });
+      pubsub.publish('wines', { addWine: newWine });
 
-      return newHero;
+      return newWine;
     },
-    deleteHero: (root, { name }, { db }) => {
-      db.get('heroes')
-        .remove({ name })
+    deleteWine: (root, { id }, { db }) => {
+      db.get('wines')
+        .remove({ id })
         .write();
 
       return true;
