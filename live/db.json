@@ -1,6 +1,4 @@
 {
-  "messages": [],
-  "uploads": [],
   "heroes": [
     {
       "id": "5ahW7OxdZ",
@@ -51,5 +49,7 @@
       "twitter": "",
       "github": ""
     }
-  ]
+  ],
+  "messages": [],
+  "uploads": []
 }

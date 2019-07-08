@@ -1,21 +1,11 @@
-# VV GraphQL workshop
+# VueAndWine workshop GraphQL server
 
-This application was created as a demo for VueVixens GraphQL workshop and conference talks
+This is an Apollo server to use locally while learning the GraphQL + Apollo on the VueAndWine workshop. To start the server, please run
 
-## Project setup
-
-```
-yarn install
-```
-
-You should run Apollo server with
-
-```
+```bash
+npm run apollo
+# OR
 yarn apollo
 ```
 
-Now you're able to fetch data from this server. To build an application, please run
-
-```
-yarn serve
-```
+Server will be running on `http://localhost:4000/graphql`
