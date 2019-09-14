@@ -38,4 +38,13 @@ export default {
       return true;
     },
   },
+
+  Subscription: {
+    wineSub: {
+      resolve: payload => {
+        return payload.addWine;
+      },
+      subscribe: (parent, args, { pubsub }) => pubsub.asyncIterator('wines'),
+    },
+  },
 };

@@ -26,3 +26,7 @@ type Mutation {
   addWine(wine: WineInput!): Wine!
   deleteWine(id: ID!): Boolean
 }
+
+type Subscription {
+  wineSub: Wine!
+}
