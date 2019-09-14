@@ -8,6 +8,123 @@
       "winery": "Samuel Tinon",
       "province": "Tokaj",
       "year": 2015
+    },
+    {
+      "id": "TaFvKQmgQ",
+      "title": "Oremus 2005 Eszencia",
+      "description": "This amber-colored Hungarian stunner has ethereal aromas of raw honey, beeswax, freshly baked tarte Tatin, canned apricot and fresh pear. It is silky smooth and creamy in the mouth with pronounced flavors of clover honey, pear tart and baked sweet apples. The acidity is perfectly balanced so you can appreciate its velvety richness without feeling that the sweetness is too cloying.",
+      "variety": "Furmint",
+      "winery": "Oremus",
+      "province": "Tokaj",
+      "year": 2005
+    },
+    {
+      "id": "3y-67bb6Z",
+      "title": "Chateau Dereszla 2014 Dry",
+      "description": "This delicate Hungarian white wine is a blend of 86% Furmint, 9% Yellow Muscat and 5% Kabar. It has enticing aromas of white flowers, botrytis, gardenia, apple blossom and apricot that prepare your palate for flavors of peach juice, citrus zest, grapefruit juice, caramelized pineapple and a crisp clean finish.",
+      "variety": "White Blend",
+      "winery": "Chateau Dereszla",
+      "province": "Tokaj",
+      "year": 2014
+    },
+    {
+      "id": "Rw3sPphui",
+      "title": "Bock 2000 Cuvée Barrique Red",
+      "description": "The rich, spicy and savory nose evoke the food for which the country is known, and this wine would undoubtedly pair well with full-bodied, spiced meats and stews. Its full, spicy nose leads into dependable flavors of red berry, wooded spice and pepper, with a slightly bitter, smoked edge. Not a terribly complex wine, but solid and tasty nonetheless.",
+      "variety": "Bordeaux-style Red Blend",
+      "winery": "Bock",
+      "province": "Villány",
+      "year": 2000
+    },
+    {
+      "id": "b8eWGRQo6",
+      "title": "Basilicus 2012 Once Upon a Time White ",
+      "description": "This Hungarian white has aromas of peach, apricot, citrus blossom and vanilla bean. In the mouth, there are flavors of caramelized apple and wet river rock.",
+      "variety": "White Blend",
+      "winery": "Basilicus",
+      "province": "Tokaj",
+      "year": 2012
+    },
+    {
+      "id": "HVL-jHzdH",
+      "title": "Royal Tokaji 1999 Mézes Mály Aszú 6 Puttonyos",
+      "description": "This exuberant Tokaji starts with an enticing nose of orange peel, honey, flowers and toast, and explodes in the mouth with intense, delicious waves of lemon, orange and honey flavors. A perfect balance of acid and fruit keeps the wine fresh without losing its luscious appeal. A memorable wine loaded with personality and excitement.",
+      "variety": "Tokaji",
+      "winery": "Royal Tokaji",
+      "province": "Tokaj",
+      "year": 1999
+    },
+    {
+      "id": "eqbOaeNk-",
+      "title": "Sauska 2011 Cuvée 7 Red",
+      "description": "A blend of 72% Cabernet Sauvignon, 21% Cabernet Franc and 7% Merlot, this wine has a bouquet of black cherry, black plum and saddle leather. It is fruit forward on the palate, with flavors of cherry and cherry cola joined by notes of baking spice that continue into the soft but persistent finish.",
+      "variety": "Bordeaux-style Red Blend",
+      "winery": "Sauska",
+      "province": "Villány",
+      "year": 2011
+    },
+    {
+      "id": "rasd5W6po",
+      "title": "Sauska 2012 Estate Furmint",
+      "description": "This wine offers a bouquet of canned peaches and tangerine zest. It is creamy on the palate, with a strong white peach flavor offset by nice vanilla notes.",
+      "variety": "Furmint",
+      "winery": "Sauska",
+      "province": "Tokaj",
+      "year": 2012
+    },
+    {
+      "id": "9X9d6n2r7",
+      "title": "Kikelet 2015 Furmint",
+      "description": "This wine is made from 100% Furmint and has an intriguing bouquet of jasmine and lemon blossom. It is crisp and acidic on the palate with pleasant flavors of lemon zest and lime juice.",
+      "variety": "Furmint",
+      "winery": "Kikelet",
+      "province": "Tokaj",
+      "year": 2015
+    },
+    {
+      "id": "ZnGX5VaNx",
+      "title": "Royal Tokaji 2003 Aszú 5 Puttonyos",
+      "description": "Honeyed apricot and orange peel on the nose and palate typify this elegant but playful botrytis wine. The wine's lively acidity gives it a bounce on the tongue, adding dimension to the citrus components and lending it more to food pairing with desserts or a cheese plate.",
+      "variety": "Tokaji",
+      "winery": "Royal Tokaji",
+      "province": "Tokaj",
+      "year": 2003
+    },
+    {
+      "id": "EhAhObdDF",
+      "title": "Sauska 2010 Rosé",
+      "description": "Perfectly dry, yet bursting with pure, ripe red fruit, Sauska's rosé would be a refreshingly easy apéritif to be enjoyed anytime of the year. Made with a hefty dose of Blaufränkisch, it's clean and fresh on the palate with pretty wildflower notes and zippy sour cherry acidity.",
+      "variety": "Rosé",
+      "winery": "Sauska",
+      "province": "Villány",
+      "year": 2010
+    },
+    {
+      "id": "LgHxX4CeG",
+      "title": "Samuel Tinon 2015 Határi Dry Furmint",
+      "description": "Hailing from the hilltop Határi vineyard, this wine has a delightful aroma of freshly picked lemons and grapefruit leaf. In the mouth, it is creamy and full bodied with flavors of white peach, lemon curd and grapefruit.",
+      "variety": "Furmint",
+      "winery": "Samuel Tinon",
+      "province": "Tokaj",
+      "year": 2015
+    },
+    {
+      "id": "8kZmKXVxR",
+      "title": "Vincze Béla 2014 Egri Bikavér Red",
+      "description": "This red blend from Hungary is garnet in color with aromas of cranberry and black cherry. Flavors suggest tart cherry and pomegranate juice, with grippy tannins and an acidic finish.",
+      "variety": "Red Blend",
+      "winery": "Vincze Béla",
+      "province": "Eger",
+      "year": 2014
+    },
+    {
+      "id": "qYtMNMXP3",
+      "title": "Szoke Matyás 2011 Irsai Oliver",
+      "description": "Intense notes of white flower and lemon peel perfume this lovely aromatic white. Dry on the palate, with tart tangerine and lime flavors, it is marked by hints of blossom and zesty lime pith. Crisp and tonic on the finish. Drink now.",
+      "variety": "Irsai Oliver",
+      "winery": "Szoke Matyás",
+      "province": "Mátra",
+      "year": 2011
     }
   ]
 }
